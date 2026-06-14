@@ -99,3 +99,26 @@ All I/O operations (blob upload, search, OpenAI) are awaited. FastAPI handles co
 
 ### Category auto-detection
 Documents are automatically categorised (`regulatory` / `strategy` / `risk` / `general`) based on keyword presence. Enables filtered searches: `GET /api/chat?category=regulatory`.
+
+---
+
+## References
+
+### LangChain
+- [LangChain docs — ConversationalRetrievalChain](https://python.langchain.com/docs/use_cases/question_answering/chat_history)
+- [LangChain docs — Memory](https://python.langchain.com/docs/modules/memory/)
+- [YouTube: LangChain RAG Tutorial (Fireship, 10 min)](https://www.youtube.com/watch?v=tcqEUSNCn8I)
+- [YouTube: Advanced RAG techniques (LlamaIndex / LangChain deep dive, 1h)](https://www.youtube.com/watch?v=TRjq7t2Ms5I)
+
+### Azure AI Search (Python)
+- [Azure AI Search Python SDK](https://learn.microsoft.com/en-us/python/api/overview/azure/search-documents-readme)
+- [LangChain AzureSearch vector store](https://python.langchain.com/docs/integrations/vectorstores/azuresearch)
+
+### FastAPI
+- [FastAPI docs](https://fastapi.tiangolo.com/)
+- [FastAPI async best practices](https://fastapi.tiangolo.com/async/)
+- [YouTube: FastAPI full course (freeCodeCamp, 6h)](https://www.youtube.com/watch?v=0sOvCWFmrtA)
+
+### RAG Design Patterns
+- [RAG survey paper — Retrieval-Augmented Generation for NLP (Lewis et al., 2020)](https://arxiv.org/abs/2005.11401)
+- [YouTube: RAG from scratch (LangChain official playlist)](https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x)
